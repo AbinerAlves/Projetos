@@ -1,0 +1,23 @@
+print("="*20 + " lanchonete Senai " + "="*20)
+nome_usuario = input("Por Favor, Digite seu nome: ")
+print(f"Olá {nome_usuario} Seja Bem vindo!!")
+print("-"*20 + " Cardapio Senai " + "-"*20)
+print(f"1.Hamburguer clássico - R$ 9.0")
+print(f"2.Refrigerantes - R$ 6.50")
+print(f"="*20 + " Faça seu pedido " + "="*20)
+
+
+total_burger = int(input("Quantos Hamburgueres você deseja? "))
+total_refri = int(input("Quantos Refrigerantes você deseja? "))
+
+
+
+total = total_burger + total_refri
+valor_burger = float(9.0)
+valor_refri = float(6.5)
+totalpago = total_burger*valor_burger
+totalpago2 = total_refri*valor_refri
+totalaserpago = totalpago + totalpago2
+print("="*20 + " Nota fiscal " + "="*20)
+print(f"Total = {totalaserpago}")
+print(f"Muito Obrigado {nome_usuario} Foi um Prazer telo como cliente!!")
