@@ -1,0 +1,1 @@
+[print(f"Bem vindo {u}!") for u, s in [(input(f"Usuário ({t}/3): "), input(f"Senha ({t}/3): ")) for t in range(1, 4)] if u == "abiner" and s == "2007" or print("Incorreto!")][:1]

@@ -1,0 +1,1 @@
+tab = int(input("Digite o numero da Tabuada: ")); [print(f"{tab} X {i} = {tab*i}") for i in range(1, 11)]
